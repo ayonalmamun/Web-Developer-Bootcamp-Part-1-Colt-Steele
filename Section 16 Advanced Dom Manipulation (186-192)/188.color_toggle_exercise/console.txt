@@ -1,0 +1,17 @@
+var b=document.querySelector("button")
+
+b
+
+var h=document.querySelector("html")
+
+h
+
+b.addEventListener("click",function(){
+	if(h.style.background="white"){
+		h.style.background="pink"	
+	}
+	else{
+		h.style.background="white"
+	}
+
+})

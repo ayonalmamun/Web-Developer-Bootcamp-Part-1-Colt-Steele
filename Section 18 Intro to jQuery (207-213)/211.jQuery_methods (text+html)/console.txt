@@ -1,0 +1,28 @@
+//text changing
+
+jQuery
+
+$("h1").text();
+
+$("ul").text();
+
+$("li").text();
+
+
+$("h1").text("new text!");
+
+$("h1").text();
+
+$("li").text("Rusty,Dog,Bad");
+
+$("li").text();
+
+
+//html
+
+$('ul').html();
+
+$('ul').html("<li>LK Haker</li><li>Habu Modon</li>");
+
+
+$('li').html("<a href='www.google.com'>Google</a>");

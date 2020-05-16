@@ -1,0 +1,29 @@
+p {
+	border: 2px solid red;
+	width: 50%;
+	/*width inputs:50%,299px*/
+
+	/*height: 200px;*/
+
+	/*padding: 10px;*/
+	/*padding means space inside the border*/
+
+	padding-left: 50px;
+	/*padding-left means space inside the border on left side only*/
+
+	/*margin: 100px;*/
+	/*margin means spacing outside the border*/
+
+	/*margin-top: 299px;*/
+	/*margin means spacing outside the border on top side only*/
+
+	/*margin: 50px 40px 200px 30px;*/
+	/*top,right,bottom,left*/
+
+	/*margin: 50px auto 200px auto;*/
+	/*auto right,left aligns in center*/
+
+	margin: 30px 50px;
+	/*means 50px on top-bottom & 20px left-right*/
+
+}

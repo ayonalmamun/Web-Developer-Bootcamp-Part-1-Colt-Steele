@@ -1,0 +1,20 @@
+h1 {
+	color: green;
+	/*border-color: purple;
+	border-width: : 5px;
+	border-style: solid;*/
+	/*you have to write all three or take a shortcut*/
+	border: 5px solid purple;
+}
+li {
+	background-color: red;  
+	/*background-color: red;  
+	background: red;  
+		same shit
+	*/
+}
+body {
+	/*background: url(ico.png);*/
+	background: url(https://www.itl.cat/pngfile/big/44-448046_uhd-16-uhd-ultra-hd-universe.jpg);
+	background-size: cover;
+}

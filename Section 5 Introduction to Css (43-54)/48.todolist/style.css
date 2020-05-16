@@ -1,0 +1,14 @@
+body {
+	background-color: orange;
+}
+li {
+	border: 2px solid red;
+}
+#inuyasha{
+	background-color: yellow;
+}
+.donebykagome{
+	text-decoration: line-through;
+}
+
+/*https://www.w3schools.com/cssref/pr_text_text-decoration.asp*/

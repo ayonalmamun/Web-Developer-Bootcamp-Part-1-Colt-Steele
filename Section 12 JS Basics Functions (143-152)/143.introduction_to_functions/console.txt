@@ -1,0 +1,9 @@
+function singSong(){
+console.log("Habu");
+console.log("Discount");
+console.log("Kabila");
+}
+
+singSong;
+
+singSong();

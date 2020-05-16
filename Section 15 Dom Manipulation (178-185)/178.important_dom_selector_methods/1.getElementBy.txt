@@ -1,0 +1,22 @@
+var tag=document.getElementById("highlight");
+
+tag
+
+
+var tags=document.getElementsByClassName("bolded");
+
+tags
+
+tags.length
+
+console.dir(tags[0]);
+
+
+var www= document.getElementsByTagName("li")
+
+console.dir(www);
+
+var www= document.getElementsByTagName("body")
+var www= document.getElementsByTagName("body")[0]
+body
+var www= document.getElementsByTagName("head")

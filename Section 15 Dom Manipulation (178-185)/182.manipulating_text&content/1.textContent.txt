@@ -1,0 +1,10 @@
+var p=document.getElementsByTagName("p")[0]
+
+p.textContent
+
+//var ul=document.querySelector("ul")
+
+p.textContent="Mara Khao"
+p
+
+//but it will destroy the strong tag!!!

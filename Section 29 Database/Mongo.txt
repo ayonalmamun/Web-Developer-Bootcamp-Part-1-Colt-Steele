@@ -1,0 +1,58 @@
+./mongod
+//starts the demon
+
+mongo
+//open the shell
+
+help
+
+show dbs
+//show all db
+
+use name // create and use a db or use an existing db
+example:
+use demo
+
+db.bachelor.insert({name: "habu", age: 40})
+//where db = demo, bachelor = new collection
+
+show collections
+//view all collection
+
+db.bachelor.find()
+//show all in collection
+
+db.bachelor.insert({name: "kabila", age: 22})
+
+db.bachelor.find()
+db.bachelor.find({name: "habu"})
+
+db.bachelor.insert({name: "discount", age: 21})
+db.bachelor.insert({name: "sojib", age: 21})
+
+db.bachelor.find({age:21})
+
+
+db.bachelor.update({name:"habu"}, {age:35})
+// ultimately it will update the age but destroy the name property, check
+db.bachelor.find()
+
+db.bachelor.update({age:35}, {name:"habu", isLazy:true})
+//sorry, made the same mistake again, doing it properly this time!
+
+db.bachelor.update({name:"habu"}, {$set: {age:35}})
+//pefect
+
+db.bachelor.remove({name: "sojib"})
+//delete
+db.bachelor.find()
+
+db.bachelor.insert({name: "sojib", age: 21})
+db.bachelor.insert({name: "sojib", age: 21})
+
+db.bachelor.remove({name: "sojib"}).limit(1)
+//remove limit setter, will show type error but it will work!
+
+
+db.campgrounds.drop()
+//delete the collection

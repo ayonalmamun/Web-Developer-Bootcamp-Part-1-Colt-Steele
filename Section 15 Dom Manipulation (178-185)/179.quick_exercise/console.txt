@@ -1,0 +1,16 @@
+var a=document.getElementById("first")
+a
+var a=document.getElementsByClassName("special")[0]
+a
+var a=document.querySelector("#first")
+a
+var a=document.querySelector(".special")
+a
+var a=document.querySelectorAll(".special")[0]
+a
+a=document.getElementsByTagName("p")[0]
+a
+var a=document.querySelector("p")
+a
+var a=document.querySelectorAll("p")[0]
+a

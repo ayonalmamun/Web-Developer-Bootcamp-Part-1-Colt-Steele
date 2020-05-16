@@ -1,0 +1,18 @@
+$("h1").click(function(){
+    alert("K?")
+})
+
+$("button").click(function(){
+    alert("K?")
+})
+
+
+$("button").click(function(){
+    $(this).css("color", "red");
+})
+
+
+$("button").click(function(){
+    var text = $(this).text()
+    console.log ("You clicked on " + text)
+})

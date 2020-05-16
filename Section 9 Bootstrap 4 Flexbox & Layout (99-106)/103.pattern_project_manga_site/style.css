@@ -1,0 +1,23 @@
+#header {
+ background: url("test.jpg");   
+ background-size: cover;
+ background-position: center;
+}
+.display-3 {
+    color: #21F21A;
+}
+.lead {
+    color: #00FFE7;
+    font-size: 3.25rem;
+    
+}
+.card:hover {
+    cursor: pointer;
+    -webkit-box-shadow: -6px 5px 16px 21px rgba(0,0,0,0.69);
+-moz-box-shadow: -6px 5px 16px 21px rgba(0,0,0,0.69);
+box-shadow: -6px 5px 16px 21px rgba(0,0,0,0.69);
+transform: scale(1.1,1.1);
+}
+.card {
+    transition: all 1s ease;
+}

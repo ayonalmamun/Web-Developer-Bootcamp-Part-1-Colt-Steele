@@ -1,0 +1,9 @@
+$("input").keypress(function(){
+    console.log("Mara Khao")
+})
+
+$("input").keypress(function(event){
+    if(event.which===13){
+        alert("Enter Marao?")    
+    }
+})

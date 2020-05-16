@@ -1,0 +1,43 @@
+//attr
+$("img").css("width")
+
+$("img").css("width","200px")
+
+$("img").attr("src")
+
+$("img").attr("src","img2.jpg")
+
+$("input").attr("type")
+
+$("input").attr("type","color")
+
+$("input").attr("type","checkbox")
+
+//adding new html still attr
+
+$("img").css("width","200px")
+
+$("img:first-of-type").attr("src","img2.jpg")
+
+$("img").last().attr("src" ,"img3.jpg")
+
+$("img").attr("src" ,"img.jpg")
+
+
+
+//val
+
+$("input").val()
+
+// write kabila in input first, don't hit enter!
+$("input").val()
+"kabila"
+
+$("input").val("Habu")
+
+//adding new html still val
+
+$("select").val()
+"Mitthabadi"
+
+

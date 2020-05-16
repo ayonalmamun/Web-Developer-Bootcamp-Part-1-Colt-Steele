@@ -1,0 +1,4 @@
+var li=document.querySelectorAll(".bolded")
+li
+var li=document.querySelectorAll("li")
+li

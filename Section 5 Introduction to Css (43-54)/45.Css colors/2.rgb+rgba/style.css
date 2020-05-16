@@ -1,0 +1,19 @@
+h1 {
+	color: rgb(0,255,0);
+}
+h2 {
+	color: rgba(0,255,0,.5);
+}
+li {
+	color: rgb(0,255,255);
+}
+/*rgb 0 to 255 range
+all max will give white color
+
+rgba stands for alpha
+rgba range 0 to 1
+including Decimal(doshomik)
+0 fully transparent
+1 not transparent
+
+*/

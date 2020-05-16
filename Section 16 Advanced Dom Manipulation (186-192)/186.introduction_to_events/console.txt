@@ -1,0 +1,28 @@
+var h1=document.querySelector("h1")
+
+h1
+
+h1.addEventListener("click",function(){
+alert("h1 was clicked!")
+})
+
+h1.addEventListener("click",function(){
+h1.style.background="orange"
+})
+
+document.querySelector("ul").addEventListener("click",function(){
+console.log("you clicked the ul!!!")
+})
+//keep checking the console
+
+
+var li=document.querySelectorAll("li")
+
+li
+
+for(var i=0;i<li.length;i++){
+    li[i].addEventListener("click",function(){
+    this.style.color="pink";
+})
+}
+//click on every li

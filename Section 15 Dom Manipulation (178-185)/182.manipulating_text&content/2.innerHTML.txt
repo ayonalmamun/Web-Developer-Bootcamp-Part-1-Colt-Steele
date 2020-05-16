@@ -1,0 +1,32 @@
+var p=document.getElementsByTagName("p")[0]
+
+p.textContent
+
+p.innerHTML
+
+var ul=document.querySelector("ul")
+
+ul.innerHTML
+
+ul
+
+ul.innerHTML="Shuka The Boss"
+
+
+//special 
+document.querySelector("h1").textContent="Getsuga!"
+
+//bonus
+
+document.body
+
+document.body.innerHTML
+
+document.body.textContent
+
+//mara!!!
+//document.body.textContent="<h1>Sayonara</h1>" 
+
+
+
+document.body.innerHTML="<h1>Sayonara</h1>"

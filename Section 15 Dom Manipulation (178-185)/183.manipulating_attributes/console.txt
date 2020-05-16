@@ -1,0 +1,19 @@
+var img=document.getElementsByTagName("img")[0]
+
+img
+
+img.getAttribute("src")
+
+img.setAttribute("src","v12.ico")
+
+
+
+
+
+var a = document.querySelector("a")
+
+a.setAttribute("href","https://wwww.facebook.com")
+
+a
+
+a.textContent="Facebook"

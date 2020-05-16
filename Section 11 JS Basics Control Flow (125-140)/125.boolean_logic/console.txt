@@ -1,0 +1,17 @@
+5===5
+true
+
+5==="5"
+false
+
+null==undefined
+true
+
+NaN==NaN
+false
+
+true==1
+true
+
+false==0
+true

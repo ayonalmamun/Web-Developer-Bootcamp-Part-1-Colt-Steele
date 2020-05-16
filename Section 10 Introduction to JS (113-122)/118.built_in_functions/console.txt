@@ -1,0 +1,21 @@
+comment : //
+
+//alert
+//prompt
+//console.log
+
+
+clear();
+clears the console
+
+alert("Kabila Nearby!");
+alert(20+5);
+pop_up
+
+console.log("Kabila Nearby!");
+console.log("4/2");
+print
+
+prompt("what is your name?");
+
+var userName=prompt("what is your name?");

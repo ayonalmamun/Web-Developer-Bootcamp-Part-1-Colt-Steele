@@ -1,0 +1,20 @@
+body {
+	color: green;
+}
+p {
+	color: red;
+}
+li {
+	color: violet;
+}
+ul {
+	color: orange;
+}
+.chor {
+	color: red;
+	text-decoration: line-through;
+}
+#boss {
+	text-decoration: underline;
+}
+/*priority : which one is more specific? id>class(chor)>li>ul>body*/

@@ -1,0 +1,17 @@
+h1 {
+	background-color: rgba(255,5,1,.7);
+	color: #FF8000;
+}
+li {
+	background-color: red;  
+	/*background-color: red; 
+	background: red;  
+		same shit
+	*/
+}
+body {
+	background: url(https://www.itl.cat/pngfile/big/44-448046_uhd-16-uhd-ultra-hd-universe.jpg);
+	/*background-repeat: no-repeat;*/	/*original image size*/
+	background-size: cover; /*will cover the whole div*/
+
+}

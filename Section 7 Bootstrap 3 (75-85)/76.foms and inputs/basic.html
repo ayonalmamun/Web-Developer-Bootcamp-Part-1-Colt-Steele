@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bootstrap Basics</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<!-- container class is for spacing -->
+	<div class="container">
+		<div class="jumbotron">
+  	<h1 class="display-4">Hello, world!</h1>
+  	<p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+  	<hr class="my-4">
+  	<p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+  	<p class="lead">
+    <a class="btn btn-primary btn-lg" href="https:/www.google.com/" role="button">Learn more</a>
+  	</p>
+	</div>
+
+	<!-- next lines will also be affected by container class!!! -->
+
+	<h1>Bootstrap Basics</h1>
+	<button type="button" class="btn btn-success btn-sm">Click Me!</button>
+
+	<button type="button" class="btn btn-success btn-sm active">Click Me!</button>
+
+	<button type="button" class="btn btn-danger btn-sm disabled">Click Me!</button>
+
+	<a href="https://getbootstrap.com/docs/4.0/getting-started/introduction/" class="btn btn-info btn-lg">Bootstrap Docs</a>
+
+	<form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+  <div class="form-group form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+	</form>
+
+	<!-- inline form -->
+
+	<form class="form-inline">
+  <label class="sr-only" for="inlineFormInputName2">Name</label>
+  <input type="text" class="form-control mb-2 mr-sm-2" id="inlineFormInputName2" placeholder="Jane Doe">
+
+  <label class="sr-only" for="inlineFormInputGroupUsername2">Username</label>
+  <div class="input-group mb-2 mr-sm-2">
+    <div class="input-group-prepend">
+      <div class="input-group-text">@</div>
+    </div>
+    <input type="text" class="form-control" id="inlineFormInputGroupUsername2" placeholder="Username">
+  </div>
+
+  <div class="form-check mb-2 mr-sm-2">
+    <input class="form-check-input" type="checkbox" id="inlineFormCheck">
+    <label class="form-check-label" for="inlineFormCheck">
+      Remember me
+    </label>
+  </div>
+
+  <button type="submit" class="btn btn-primary mb-2">Submit</button>
+	</form>
+
+
+	</div>
+
+</body>
+</html>
+
+<!-- Form groups
+The .form-group class is the easiest way to add some structure to forms. It provides a flexible class that encourages proper grouping of labels, controls, optional help text, and form validation messaging. By default it only applies margin-bottom, but it picks up additional styles in .form-inline as needed. Use it with <fieldset>s, <div>s, or nearly any other element.
+
+Form controls
+Textual form controls—like <input>s, <select>s, and <textarea>s—are styled with the .form-control class. Included are styles for general appearance, focus state, sizing, and more. -->

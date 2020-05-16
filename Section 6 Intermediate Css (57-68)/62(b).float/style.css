@@ -1,0 +1,15 @@
+h1 {
+	font-family: Lobster;
+}
+
+div {
+	width: 100px;
+	float: left;
+}
+#one {
+	background: red;
+}
+
+#two {
+	background: blue;
+}

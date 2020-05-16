@@ -1,0 +1,33 @@
+$("h1")[0]
+
+
+$("h1").css("color","yellow");
+
+
+var style = {
+    color: "red",
+    background:"pink",
+    border: "2px solid blue"
+    };
+$("h1").css(style)
+
+$("li").css("color","orange")
+
+
+
+//vanilla
+
+var a=document.querySelectorAll("li")
+for (var i=0;i<a.length;i++){
+    a[i].style.color="red";
+}
+//
+
+$("a").css("font-size","40px")
+
+$("li").css({
+	fontSize: "10px",
+	border: "2px dashed purple",
+	background: "rgba(50,20,44,0.3)"
+
+})

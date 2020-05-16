@@ -1,0 +1,20 @@
+var name="Kabila";
+
+name
+
+name="Discount"
+
+"Hello " + name;
+
+num=100;
+num+100;
+
+changing data type of a variable:
+num="hundred"
+
+
+typeof num;
+
+camelCase - JS
+snake_case
+kebab-case

@@ -1,0 +1,46 @@
+var logo=document.querySelector("#hplogo")
+
+logo
+
+logo.setAttribute("srcset","https://cdn.pixabay.com/photo/2020/03/16/11/10/south-styrian-wine-road-4936672_960_720.jpg")
+
+logo.style.width="500px"
+
+logo.style.height="500px"
+
+logo.style.height="100px"
+
+logo.style.width="200px"
+
+logo.style.border="2px solid purple"
+
+var links=document.getElementsByTagName("a")
+
+
+links
+
+
+for (var i=0;i<links.length;i++){
+    console.log(links[i].textContent)
+}
+
+for (var i=0;i<links.length;i++){
+    links[i].style.background="pink"
+}
+
+for (var i=0;i<links.length;i++){
+    links[i].style.border="1px dashed blue"
+    links[i].style.color="orange"
+}
+
+for (var i=0;i<links.length;i++){
+    console.log(links[i].getAttribute("href"))
+}
+
+for (var i=0;i<links.length;i++){
+    links[i].setAttribute("href","https://www.facebook.com")
+}
+
+for (var i=0;i<links.length;i++){
+    console.log(links[i].getAttribute("href"))
+}

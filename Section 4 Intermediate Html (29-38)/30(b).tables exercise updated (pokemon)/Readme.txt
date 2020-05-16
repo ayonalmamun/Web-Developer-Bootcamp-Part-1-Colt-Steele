@@ -1,0 +1,1 @@
+how to change width of multiple images at same time

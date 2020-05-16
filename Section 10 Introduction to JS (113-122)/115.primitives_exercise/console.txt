@@ -1,0 +1,8 @@
+100%3
+ans.1
+
+("blah"+"blah")[6]
+ans.a
+
+"hello".length%"hi\\".length
+ans.2

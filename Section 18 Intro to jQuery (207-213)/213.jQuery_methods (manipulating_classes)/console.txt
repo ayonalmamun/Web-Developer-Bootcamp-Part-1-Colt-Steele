@@ -1,0 +1,17 @@
+$("img").css("width","200px")
+
+$("h1").addClass("correct")
+
+$("h1").removeClass("correct")
+
+$("li").addClass("wrong")
+
+$("li").removeClass("wrong")
+
+$("li").toggleClass("correct")
+
+$("li").toggleClass("correct")
+
+$("li").last().toggleClass("done")
+
+$("li").toggleClass("done")

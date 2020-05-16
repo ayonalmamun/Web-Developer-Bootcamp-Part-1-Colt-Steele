@@ -1,0 +1,10 @@
+// only returns one element. example it return one h1 even there is multiple h1's
+
+var h1=document.querySelector("h1")
+h1
+var li=document.querySelector("#highlight")
+li
+
+//there are two bolded classes, it returns the first one only
+var li=document.querySelector(".bolded")
+li

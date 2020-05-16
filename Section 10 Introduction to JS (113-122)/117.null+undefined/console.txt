@@ -1,0 +1,7 @@
+var age;
+
+age;
+
+var player="nayeef";
+
+var player="null";

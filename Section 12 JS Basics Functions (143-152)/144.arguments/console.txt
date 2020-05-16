@@ -1,0 +1,10 @@
+function hi(p1,p2,p3)
+{
+    console.log("Hi "+ p1);
+    console.log("Hi "+ p2);
+    console.log("Hi "+ p3);
+}
+hi("Habu","Kabila","Discount");
+
+
+hi("Habu","Kabila");

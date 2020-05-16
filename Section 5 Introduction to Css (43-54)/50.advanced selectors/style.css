@@ -1,0 +1,56 @@
+/*element*/
+li{
+
+}
+/*class*/
+.hello{
+
+}
+/*id*/
+#name{
+
+}
+/*star means select every single thing*/
+* {
+	border: 2px solid grey;
+}
+
+/*descendant selector*/
+li a {
+	color: red;
+}
+
+/*ul li a {
+	color: red;
+}*/
+
+/*li .hello {
+	color: red;
+}*/
+
+/*adjacent selector*/
+
+h2+ul {
+	border: 2px solid orange;
+}
+
+/*attribute selector*/
+a[href="https://www.google.com/"] {
+	background: blue;
+}
+
+/*input[type="text"] {
+	background-color: red;
+}*/
+
+/*nth of type*/
+/*ul:nth-of-type(2){
+	background: purple;
+}
+
+li:nth-of-type(3){
+	background: purple;
+}*/
+li:nth-of-type(even){
+	background: purple;
+}
